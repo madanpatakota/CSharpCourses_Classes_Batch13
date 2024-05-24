@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>File</StartupObject>
+    <StartupObject>StaticAndNonStaticMembers.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,13 +47,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1.Class_Basics.cs" />
+    <Compile Include="2.Classs_Advanced.cs" />
+    <Compile Include="4.StaticClass.cs" />
+    <Compile Include="Inheritance\1.interface.cs" />
+    <Compile Include="Inheritance\2.Multiple_Interfaces.cs" />
+    <Compile Include="Namespace\1.AllFiles.cs" />
+    <Compile Include="Namespace\2.ExcelFiles.cs" />
+    <Compile Include="Namespace\3.PDFFiles.cs" />
+    <Compile Include="Namespace\4.WordFiles.cs" />
+    <Compile Include="Namespace\5.MainProgram.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Static_NonStatic\1.Instantiate.cs" />
+    <Compile Include="Static_NonStatic\2.Members.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Static_NonStatic\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
