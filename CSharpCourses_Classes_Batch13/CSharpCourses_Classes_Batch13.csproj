@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>StaticAndNonStaticMembers.Program</StartupObject>
+    <StartupObject>Games.MainProgram</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -49,8 +49,12 @@
     <Compile Include="1.Class_Basics.cs" />
     <Compile Include="2.Classs_Advanced.cs" />
     <Compile Include="4.StaticClass.cs" />
+    <Compile Include="Abstraction\1.AbstractClass.cs" />
     <Compile Include="Inheritance\1.interface.cs" />
     <Compile Include="Inheritance\2.Multiple_Interfaces.cs" />
+    <Compile Include="Inheritance\3.MotorCompany.cs" />
+    <Compile Include="Inheritance\4.SoftwareCompany.cs" />
+    <Compile Include="Inheritance\MainProgram.cs" />
     <Compile Include="Namespace\1.AllFiles.cs" />
     <Compile Include="Namespace\2.ExcelFiles.cs" />
     <Compile Include="Namespace\3.PDFFiles.cs" />
@@ -63,6 +67,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Polymorphism\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

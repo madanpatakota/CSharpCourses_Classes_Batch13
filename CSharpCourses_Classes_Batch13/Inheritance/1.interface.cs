@@ -9,11 +9,17 @@
  */
 #endregion
 
+
+//{
+
+//}
+
 namespace InterfaceInitilizationStage
 {
     interface ICompanyService
     {
-         void EmployeesList();
+        
+        void EmployeesList();
          void EmployeeLocationsList();
 
     }
@@ -24,4 +30,9 @@ namespace InterfaceInitilizationStage
         void Stop();    // Method for stopping the vehicle
     }
 
+
+    //interface i1 : IVehicleService
+    //{
+
+    //}
 }
